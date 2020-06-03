@@ -1,3 +1,3 @@
 # MusicPlayer
 
-open homepage.html
+open homePage.html
