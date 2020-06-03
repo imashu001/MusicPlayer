@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Major Project1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="project.css">
+  <link rel="stylesheet" type="text/css" href="http://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+<body>
+  <style>
+
+
+
+
+
+    /*fixed header*/
+    body{
+      background-color: #08081d;
+    }
+    .container1 {
+          align-content: left;
+            width:10%;
+            height:auto;
+            padding:1%;
+            display: inline;
+        }
+         .player-name{
+          align-content:left;
+          width: 10%;
+          font-size: 25px;
+          margin-left: 10%;
+          color: white;
+          height: 10%vh;
+          display: inline-block;
+        }
+        .favourites{
+          align-content:left;
+          color: white;
+          margin-left: 20%;
+          display: inline-block;
+        }
+    #searchbar{
+      width:20%;
+      min-height: 10px;
+      text-decoration-color: cyan;
+      padding-left: 5px; 
+      background-color:#040452;
+      border:1px solid white;
+      border-right: none;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px
+    }
+    #microphone{
+      border:1px solid white;
+      background-color:#040452;
+      border-left:none;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px
+    
+    }
+    
+    .navigation{
+      
+      align-content: right;
+      display: inline;
+    }
+        .player-img{
+          color: #040452;
+          height: 100px;
+          width: 100px;
+          display: inline;
+        }
+        .profile{
+          border-radius: 50%;
+          background-color: black;
+        }
+    
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #08081d;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .header-container{
+        width: 80%;
+
+        margin: 0 auto;
+    }
+    .nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+
+
+
+    /*header*/
+
+     body {
+    background-color: #08081d;
+  }
+  .container1{
+    /*border: solid 4px white;*/
+    padding-left: 40px;
+  }
+    #left{
+      position:relative;
+      top: 5px;
+      z-index: 1;
+    }
+    #centre{
+      position:relative;
+      top: 0px;
+      left: -150px;
+      z-index: 1;
+    }
+    #right{
+      position:relative;
+      top: 07px;
+      right: 275px;
+      z-index: -1;
+      transition: 1s ease-in-out;    
+    }
+    #right:hover{
+      transform: translateX(-150);
+      height: 20%;
+      width: 20%
+    }
+/*Add1  css file */
+
+body{
+      background-color: #08081d;
+    }
+    .main-container{
+      display: inline-block;
+      padding-left: 2%;
+    }
+    .Latest-release{
+      margin-left: 2%;
+    }
+    .dropbtn {
+    display: space-around;
+         background-color: #08081d;
+         color: white;
+         padding: 0px;
+         font-size:10px;
+         text-decoration-color: cyan;
+         border: none;
+        }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+
+        .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f1f1f1;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+        }
+
+    .dropdown-content a {
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         }
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: #darkslategrey;}
+    table{
+      color: white;
+    }
+    /*/latest release*/
+    /*popular artists*/
+    .popular-artist{
+      margin-left: 2%;
+    }
+    .bey{
+      position: relative;
+      display: inline-block;
+    }
+    .dp{
+      transition:0.3s ease-in-out;
+      border-radius: 50%
+    }
+    .dp:hover{
+      transform:scale(1.5);
+      perspective: 50px;
+      border-radius: 25%;
+      color: white;
+      opacity: 500%
+    }
+    /*stations*/
+    .Stations{
+      margin-left: 2%;
+      background-color: #1e1e44
+    }
+    .station{
+      vertical-align: center;
+      display: inline-block;
+      opacity:0.5;
+      transition: 0.3s
+
+    }
+    .station:hover{
+      opacity:1;
+    }
+
+/*genere*/
+.genere{
+  display: inline-flex;
+  margin-left: 2%;
+}
+#div1{ 
+    margin:1%;
+    border:solid green 2px;
+    background-color: green;
+    display: inline-block;
+}
+.imag{
+  width: 100%;
+  height: 100%;
+}
+#div2{
+    margin:1%;
+    border:solid green 2px;
+    display: inline-block;
+}
+#div3{
+    margin:1%;
+    border:solid green 2px;
+    display: inline-block;
+}
+#div1:hover{
+  transform: scale(1.04);
+  opacity: 0.7;
+}
+#div2:hover{
+  transform: scale(1.04);
+  opacity: 0.7;
+}
+#div3:hover{
+  transform: scale(1.04);
+  opacity: 0.7;
+}
+    /*latest release English*/
+
+
+.latest-english{
+      margin-left: 2%;
+    }
+.latest-Punjabi{
+      margin-left: 2%;
+    }
+.latest-Hindi{
+      margin-left: 2%;
+
+    }
+    .B1{
+      position: relative;
+      display: inline-block;
+    }
+    .P{
+      transition:0.5s ease-in-out;
+    }
+    .P:hover{
+      perspective: 50px;
+      border-radius: 20%;
+      color: white;
+      opacity: 0.7;
+    }
+    /*Aside Queue*/
+    .Aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10%;
+    width: 25%;
+    }
+    /* Bottom Audio*/
+    .now-playing,.control,.right-most{
+      vertical-align: center;
+
+      display: inline-block;
+    }
+    .control{
+      align-self: center;
+      margin-left: 30%;
+    }
+    .right-most{
+      margin-left: 80%;
+      vertical-align: top;
+    }
+</style>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="header-container">
+        <div class="containeeer1" style="color: #7171d6">
+        <div class="player-img">
+        <i class="fas fa-compact-disc fa-3x"></i>
+        <i class="fas fa-play-circle fa-3x"></i>
+        </div>
+        <div class="player-name" >
+        <span>Ninja<br>studio</span>
+        </div>
+        <div class="favourites" style="color: white">
+        <span >Favourites</span></div>
+        <input type= "text" id="searchbar" placeholder="search" >
+                <button id="microphone"><a href="#" style="color: white"><i class="fas fa-microphone"></i> </a>
+                </button>
+                <button><a href="#" style="color:black;" ><i class="fas fa-bell fa-1x" ></i></a></button>
+                <button><input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6HfI2BE6fNjX0KZzJSRbIusOzUAhz_eYsKyMGTodKOvHMBlHJ" alt="Submit"
+                class="profile" width="48" height="48" align="right">
+                </input></button>
+              </div>
+            </div>
+          </div>
+    <div class="container">
+        <div class="container1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6h6Kj9jfnKA1Lqa3mEostvKqmcpN94t9ccf387KoCIuI4JuRg" id="left" style="width: 350px; height: 150px;">
+      <img src="https://a10.gaanacdn.com/images/playlists/55/2580655/crop_175x175_2580655_1515566728.jpg" id="centre" style="width: 400px; height: 175px">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT-EVlWty8TOTaBKxlhPCtmZEZ_PJssNWE7OjAocM93sIO99F8" id="right" style="width: 350px; height: 150px;">
+</div>
+<div class="main-container">
+ 
+<!-- Latest release Section -->
+  <div class="Latest-release">
+    <h4 style="color: white">Latest Release</h4>
+  <table class="M5">
+    <tr>
+      <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCf8Ra6XO1SBYHBAVA1QBl6cTVlnP-rYVlqh7PboeTppcYdSIS" class="images"alt="M5" width="48" height="48"></td>
+      <td>&emsp;</td>
+      <td colspan="5">Maroon 5 <p style="font-size: 10px">Jan 2020</p></td>
+      <td>&emsp;&emsp;</td>
+      <td>&emsp;&emsp;</td>
+        <td > <div class="dropdown">
+                    <button class="dropbtn" >.&ensp;.&ensp;.</button>
+                    <div class="dropdown-content">
+                    <a href="#">Play Now</a>
+                    <a href="#">Add to queue </a>
+                    <a href="#">Download</a>
+                    </div>
+                  </div>
+                 <br>4:49
+            </td>
+            <td>&emsp;&emsp;</td>
+            <td><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCf8Ra6XO1SBYHBAVA1QBl6cTVlnP-rYVlqh7PboeTppcYdSIS" alt="M5" width="48" height="48"></td>
+            <td>&emsp;</td>
+      <td colspan="5">Maroon 5 <p style="font-size: 10px">Jan 2020</p></td></a>
+        <td>&emsp;&emsp;</td>
+        <td>&emsp;&emsp;</td>
+        <td > <div class="dropdown">
+                    <button class="dropbtn" >.&ensp;.&ensp;.</button>
+                    <div class="dropdown-content">
+                    <a href="#">Play Now</a>
+                    <a href="#">Add to queue </a>
+                    <a href="#">Download</a>
+                    </div>
+                  </div>
+                 <br>4:49
+            </td>
+            <td>&emsp;&emsp;</td>
+    </tr>
+    <tr>
+    <td><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCf8Ra6XO1SBYHBAVA1QBl6cTVlnP-rYVlqh7PboeTppcYdSIS" alt="M5" width="48" height="48"></td>
+    <td>&emsp;</td>
+      <td colspan="5">Maroon 5 <p style="font-size: 10px">Jan 2020</p></a></td>
+        <td>&emsp;&emsp;</td>
+        <td>&emsp;&emsp;</td>
+        <td > <div class="dropdown">
+                    <button class="dropbtn" >.&ensp;.&ensp;.</button>
+                    <div class="dropdown-content">
+                    <a href="#">Play Now</a>
+                    <a href="#">Add to queue </a>
+                    <a href="#">Download</a>
+                    </div>
+                  </div>
+                 <br>4:49
+                 <td>&emsp;&emsp;</td>
+            </td>
+    <td><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCf8Ra6XO1SBYHBAVA1QBl6cTVlnP-rYVlqh7PboeTppcYdSIS" alt="M5" width="48" height="48"></td>
+    <td>&emsp;</td>
+      <td colspan="5">Maroon 5 <p style="font-size: 10px">Jan 2020</p></td></a>
+        <td>&emsp;&emsp;</td>
+        <td>&emsp;&emsp;</td>
+        <td > <div class="dropdown">
+                    <button class="dropbtn" >.&ensp;.&ensp;.</button>
+                    <div class="dropdown-content">
+                    <a href="#">Play Now</a>
+                    <a href="#">Add to queue </a>
+                    <a href="#">Download</a>
+                    </div>
+                  </div>
+                 <br>4:49
+                 <td>&emsp;&emsp;</td>
+            </td>
+    </tr>
+    </table>
+    </div>
+    <!-- latest release ends
+    popular Artists section  -->
+   <div class="popular-artist">
+        <h4 style="color: white">Popular Artists</h4>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50%"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6pOQegUuH9kxYoCKevbv-BpQbNOutr4tY9QZDOPmJdz8dq9NT"alt ="cp" class="dp" style="width: 50px;height: 50px;"><p style="color: white">Charlie Puth</p></div></a>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50%">&ensp;</div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50%"><a href="salena.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8NypC69jiz6kkc3g7V2Y4_Ae0bbLadeL_Ev-S2FG8eYxn8Wsl" alt="Bey" class="dp" style="width: 50px;height: 50px;"><p style="color:white">Salena Gomez</p></a></div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50%">&ensp;</div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50% margin-top:40%"><a href="siddhu.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow"alt="Bey" class="dp" style="width: 50px;height: 50px;"><p style="color:white">Siddu Moosewala</p></a>
+        </div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50%">&ensp;</div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50% margin-top:40%"><a href="perry.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTaASDl9hQEbicFT9jf-6-ubdZtL0lQ9bumDrhoUoCxGc4QKQXO"alt="Bey" class="dp" style="width: 50px;height: 50px;"><p style="color:white">Katy pery</p></a>
+        </div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50%">&ensp;</div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50% margin-top:40%"><a href="neha.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKpCvuKbJt8WjMUJyVGkfuGC03w29J_L8XBiVSemOxVlTJEr5D"alt="Bey" class="dp" style="width: 50px;height: 50px;"><p style="color:white">Neha Kakkar</p></a>
+        </div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50%">&ensp;</div>
+        <div class="bey" style="width: 60px;height: 60px;border-radius:50% margin-top:40%"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdlsd4dHutwveKl9EfmDdk5zAhmDI11KlSiufVrregIYQ9f2kd"alt="Bey" class="dp" style="width: 50px;height: 50px;"><p style="color:white">Bruno Mars</p></a>
+        </div>
+        </div>
+
+
+
+   <!-- Stations -->
+
+   <div class="Stations">
+    <a href="#">
+   <img src="https://i.pinimg.com/originals/1d/c0/85/1dc0852e466f89b309e4471b96e053ae.png" class="station" style="width: 50px;height: 50px;"></a>
+   <div class="B1" style="width: 45px;height: 60px;">&ensp;</div>
+    <a href="#">
+    <img src="https://miro.medium.com/max/5400/1*VcHVCyRSAOF3V6Ldi0iXOQ.jpeg" class="station" style="width: 50px;height: 50px;"></a>
+    <div class="B1" style="width: 45px;height: 60px;">&ensp;</div>
+    <a href="#">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVhsm8pog7IifdArzTunHqj1pS4RufT7QebB1nhQd-rcg7a0c5" class="station" style="width: 50px;height: 50px;"></a>
+    <div class="B1" style="width: 45px;height: 60px;">&ensp;</div>
+   <a href="#">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTH3Zc3L6h7jSPkVVYJcC7t8DpZu63PXdjsK1od8vsd3FsDodVr" class="station" style="width: 50px;height: 50px;"></a>
+
+   <div class="B1" style="width: 45px;height: 60px;">&ensp;</div>
+    <a href="#">
+    <img src="https://image.shutterstock.com/image-vector/inspirational-motivational-print-design-workout-260nw-640497250.jpg" class="station" style="width: 50px;height: 50px;"></a>
+    <div class="B1" style="width: 45px;height: 60px;">&ensp;</div>
+    <a href="#">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_koxRiu162sLXWSFqzHUWH32ZK7be6d1c1fVGYidW6iIbsZS4" class="station" style="width: 50px;height: 50px;"></a>
+   <div class="B1" style="width: 45px;height: 60px;">&ensp;</div>
+    <a href="#">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTeHymdH1onzx3DICMjLrx0uHayKT6CSZwL8LMCisF2yHLfKV0K" class="station" style="width: 50px;height: 50px;"></a>
+   </div>
+
+
+    <!-- genre -->
+    <div class="genere">
+      <div id="div1" style="width: 18% height 18%;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQS-cDwiTp624M1HYu4nC2t1weLkSYMESXTczVpILLpa7mZlo26" class="imag"></a></div>
+      <div id="div2" style="width: 18% height 18%;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPDPUR27XFA7FwJXulEh6y1nN6sKELtmr-k4gMI3LvOB22FsgU" class="imag"></a></div>
+      <div id="div3" style="width: 18% height 18%;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmjMFb2n8c-aJ-3reWODgkE6rfBCgDVhjss3-_hWT6DH3Od3sV" class="imag"></a></div>
+    </div>
+
+    <div class="latest-english">
+      <h4 style="color: white">Latest English</h4>
+      <div class="B1" style="width: 60px;height: 60px;"><a href="coldplay.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqVwb-YEFrFgFQwAcAL22BYIP9f2DuFtXM_lDO67T30c-YpOJI"alt ="CP" class="P" style="width: 50px;height: 50px;"><p style="color: white">coldplay<br><p style="color: white">jan 2020</p></a></div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="coldplay.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqVwb-YEFrFgFQwAcAL22BYIP9f2DuFtXM_lDO67T30c-YpOJI" alt="CP" class="P" style="width: 50px;height: 50px;"><p style="color:white">Coldplay<p style="color: white">jan 2020</p></a></div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="coldplay.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqVwb-YEFrFgFQwAcAL22BYIP9f2DuFtXM_lDO67T30c-YpOJI"alt="CP" class="P" style="width: 50px;height: 50px;"><p style="color:white">Coldplay<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="coldplay.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqVwb-YEFrFgFQwAcAL22BYIP9f2DuFtXM_lDO67T30c-YpOJI"alt="CP" class="P" style="width: 50px;height: 50px;"><p style="color:white">Coldplay<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="coldplay.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqVwb-YEFrFgFQwAcAL22BYIP9f2DuFtXM_lDO67T30c-YpOJI"alt="CP" class="P" style="width: 50px;height: 50px;"><p style="color:white">Coldplay<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="coldplay.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqVwb-YEFrFgFQwAcAL22BYIP9f2DuFtXM_lDO67T30c-YpOJI"alt="CP" class="P" style="width: 50px;height: 50px;"><p style="color:white">Coldplay<p style="color: white">jan 2020</p></a>
+        </div>
+    </div>
+
+
+    <!-- latest Punjabi -->
+    <div class="latest-Punjabi">
+      <h4 style="color: white">Latest Punjabi</h4>
+      <div class="B1" style="width: 60px;height: 60px;"><a href="siddhu.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow"alt ="SID" class="P" style="width: 50px;height: 50px;"><p style="color: white">Siddu Moosewala<br><p style="color: white">jan 2020</p></a></div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="siddhu.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow" alt="SID" class="P" style="width: 50px;height: 50px;"><p style="color:white">Siddu Moosewala<p style="color: white">jan 2020</p></a></div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="siddhu.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow"alt="SID" class="P" style="width: 50px;height: 50px;"><p style="color:white">Siddu Moosewala<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="siddhu.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow"alt="SID" class="P" style="width: 50px;height: 50px;"><p style="color:white">Siddu Moosewala<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="siddhu.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow"alt="SID" class="P" style="width: 50px;height: 50px;"><p style="color:white">Siddu Moosewala<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="siddhu.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow"alt="SID" class="P" style="width: 50px;height: 50px;"><p style="color:white">Siddu Moosewala<p style="color: white">jan 2020</p></a>
+        </div>
+    </div>
+
+
+    <!-- latestHindi -->
+    <div class="latest-Hindi">
+      <h4 style="color: white">Latest Hindi</h4>
+      <div class="B1" style="width: 60px;height: 60px;"><a href="neha.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKpCvuKbJt8WjMUJyVGkfuGC03w29J_L8XBiVSemOxVlTJEr5D"alt ="Neha" class="P" style="width: 50px;height: 50px;"><p style="color: white">Neha Kakkar<br><p style="color: white">jan 2020</p></a></div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="neha.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKpCvuKbJt8WjMUJyVGkfuGC03w29J_L8XBiVSemOxVlTJEr5D" alt="Neha" class="P" style="width: 50px;height: 50px;"><p style="color:white">Neha Kakkar<p style="color: white">jan 2020</p></a></div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="neha.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKpCvuKbJt8WjMUJyVGkfuGC03w29J_L8XBiVSemOxVlTJEr5D"alt="Neha" class="P" style="width: 50px;height: 50px;"><p style="color:white">Neha Kakkar<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="neha.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKpCvuKbJt8WjMUJyVGkfuGC03w29J_L8XBiVSemOxVlTJEr5D"alt="Neha" class="P" style="width: 50px;height: 50px;"><p style="color:white">Neha Kakkar<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="neha.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKpCvuKbJt8WjMUJyVGkfuGC03w29J_L8XBiVSemOxVlTJEr5D"alt="Neha" class="P" style="width: 50px;height: 50px;"><p style="color:white">Neha Kakkar<p style="color: white">jan 2020</p></a>
+        </div>
+        <div class="B1" style="width: 60px;height: 60px;">&ensp;</div>
+        <div class="B1" style="width: 60px;height: 60px;"><a href="neha.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKpCvuKbJt8WjMUJyVGkfuGC03w29J_L8XBiVSemOxVlTJEr5D"alt="Neha" class="P" style="width: 50px;height: 50px;"><p style="color:white">Neha Kakkar<p style="color: white">jan 2020</p></a>
+        </div>
+    </div> 
+   
+</div>
+ <div class="Aside">
+<header><span style="font-size: 25px; color: white;align-content:left">Queue</span> <div class="dropdown">
+                                 <button class="dropbtn" style="margin-left: 400%">Queue</button>
+                                 <div class="dropdown-content">
+                                 <a href="#">playlist </a>
+                                 <a href="#">favourate</a>
+                            </div>
+                        </div>
+</header>
+    <table>
+    <tr>
+      <td>1</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQssEgeAjah_HznyhIpMjXzArPcx14bIspxT8gawZYqsBKst7h-"class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Camelia cabelo<p style="font-size: 10px">Senorita</p></td>
+        <td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>2</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5-SoDJKgJSn-O1Q6-aKj0aRUgywlsZjq01tx30OFqE89ULdnY" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Salena Gomez<p style="font-size: 10px">We don't talk anymore</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>3</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwQCSgBA5ua2SGGuz3GcoC-q3qCoqb4i5QRifYCOph352fqGeJ" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Lucifer<p style="font-size: 10px">Being evil has a price</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>4</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwQCSgBA5ua2SGGuz3GcoC-q3qCoqb4i5QRifYCOph352fqGeJ" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Lucifer<p style="font-size: 10px">Call me Devil</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>5</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwQCSgBA5ua2SGGuz3GcoC-q3qCoqb4i5QRifYCOph352fqGeJ" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Lucifer<p style="font-size: 10px;">My love</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>6</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfJY2X5RQPyw2II4F7HLKVLk9hQeQtp-t4IBfC0cOYEBaVjzIx" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Charlie Puth<p style="font-size: 10px">See You Again</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSB9ShqlbV18SpkKcTgqd2DluYuaFElXMidQ9_fZSQ4VRnKnrCf" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Queens<p style="font-size: 10px">Bohemian Raphsody</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>8</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSB9ShqlbV18SpkKcTgqd2DluYuaFElXMidQ9_fZSQ4VRnKnrCf" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Queens<p style="font-size: 10px">We Will Rock it</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>9</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRp4fz__UCaVh8ToDZvixnCTSUy2G5oKa-URCWOc2WVM1DvSM-X" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Imagine Dragons<p style="font-size: 10px">Demons</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>10</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQs0ziDV5HLvaqxbegsRgVFxBwUu0LQqnupYoYwXmflP_pSNFQq" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Imagine dragons<p style="font-size: 10px">Believer<p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>11</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPPhaHy_F6HvBrucJZv0I-DiA_KIqRyH5_880AHhbT2XcbWQv7" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Kaleo<p style="font-size: 10px">Way Down We go</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>12</td>
+      <td align="justify"><img src="https://star95.com/wp-content/uploads/2018/03/1520498148_maxresdefault.jpg" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Rag N bone<p style="font-size: 10px">Only Human</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    </table>
+</div>
+    </div>    
+    <div class="fixed-footer">
+        <div class="now-playing">
+          <table>
+          <tr>
+            <th rowspan="2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfJY2X5RQPyw2II4F7HLKVLk9hQeQtp-t4IBfC0cOYEBaVjzIx" class="dp"
+        width="48" height="48"></th>
+        <td colspan="3">See you again<p style="line-height: 1px;">Charlie Puth</p></td>
+        <td></td>
+        <td></td>
+
+        <td><a href="#" style="color: white"><i class="far fa-heart"></i></a></td>
+        <td><a href="#" style="color: white"><i class="fas fa-ban"></i></a></td>
+          </tr>
+        </table>
+        </div>  
+        <div class="control"> 
+          <table>
+            <tr>
+              <td><i class="fas fa-random"></i></td>
+              <td><i class="fas fa-fast-backward"></i></td>
+              <td><i class="far fa-pause-circle"></i></td>
+              <td><i class="fas fa-fast-forward"></i></td>
+              <td><i class="fas fa-redo-alt"></i></td>
+            </tr>
+            <tr>
+              <td colspan="10"><form action="/action_page.php">
+                0:00 <input type="range" name="points" min="0" max="10">
+                 5:00</form></td>
+            </tr>
+          </table>
+        </div>      
+        <div class="right-most">
+          <table>
+            <tr><i class="fab fa-playstation"></i>
+            <i class="fas fa-volume-up"></i>
+            <input type="range" name="points" min="0" max="100" step="5">
+          </tr>
+          </table>
+          
+        </div>
+    </div>
+
+</body>
+</html>

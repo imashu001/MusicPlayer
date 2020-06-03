@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Siddhu Moosewala</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="project.css">
+  <link rel="stylesheet" type="text/css" href="http://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<style type="text/css">
+
+  body{
+      background-color: #08081d;
+    }
+    .container1 {
+          align-content: left;
+            width:10%;
+            height:auto;
+            padding:1%;
+            display: inline;
+        }
+         .player-name{
+          align-content:left;
+          width: 10%;
+          font-size: 25px;
+          margin-left: 10%;
+          color: white;
+          height: 10%vh;
+          display: inline-block;
+        }
+        .favourites{
+          align-content:left;
+          color: white;
+          margin-left: 20%;
+          display: inline-block;
+        }
+    #searchbar{
+      width:20%;
+      min-height: 10px;
+      text-decoration-color: cyan;
+      padding-left: 5px; 
+      background-color:#040452;
+      border:1px solid white;
+      border-right: none;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px
+    }
+    #microphone{
+      border:1px solid white;
+      background-color:#040452;
+      border-left:none;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px
+    
+    }
+    
+    .navigation{
+      
+      align-content: right;
+      display: inline;
+    }
+        .player-img{
+          color: #040452;
+          height: 100px;
+          width: 100px;
+          display: inline;
+        }
+        .profile{
+          border-radius: 50%;
+          background-color: black;
+        }
+    
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #08081d;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .header-container{
+        width: 80%;
+
+        margin: 0 auto;
+    }
+    .nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+	body {
+    background-color: #08081d;
+}
+.profile-container{
+	position: relative;
+	width: 900px;
+	top: 50px;
+	left: 5%;
+	display: inline-flex;
+	box-shadow: 01px 20px 0 rgba(69,90,100,0.08 );
+	background-color: #08081d;
+
+}
+.displaypic{
+	display: inline-block;
+	box-shadow: 01px 20px 0 rgba(69,90,100,0.08 );
+
+}	
+.profilepic{
+  padding-right: 9%;
+}
+.about{
+	color: white;
+	display: inline-block;
+	box-shadow: 01px 20px 0 rgba(69,90,100,0.08 );
+}
+.follow{
+	vertical-align: top;
+}
+.table{
+	color: white;
+	position: relative;
+	width: 900px;
+	top: 50px;
+	left: 5%;
+	display: inline-flex;
+	box-shadow: 01px 20px 0 rgba(0,0,00,0.08 );
+	background-color: #08081d;
+}
+tr{
+	box-shadow: 01px 20px 0 rgba(69,90,100,0.08 );
+}
+.similar-artists{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10%
+}
+.RP{
+	margin-top: 70px;
+}
+
+.now-playing,.control,.right-most{
+      vertical-align: center;
+
+      display: inline-block;
+    }
+    .control{
+      align-self: center;
+      margin-left: 30%;
+    }
+    .right-most{
+      margin-left: 80%;
+      vertical-align: top;
+    }
+</style>
+</head>
+
+<body>
+  <div class="fixed-header">
+        <div class="header-container">
+        <div class="containeeer1" style="color: #7171d6">
+        <div class="player-img">
+        <i class="fas fa-compact-disc fa-3x"></i>
+        <i class="fas fa-play-circle fa-3x"></i>
+        </div>
+        <div class="player-name" >
+        <span>Ninja<br>studio</span>
+        </div>
+        <div class="favourites" style="color: white">
+        <span >Favourites</span></div>
+        <input type= "text" id="searchbar" placeholder="search" >
+                <button id="microphone"><a href="#" style="color: white"><i class="fas fa-microphone"></i> </a>
+                </button>
+                <button><a href="#" style="color:black;" ><i class="fas fa-bell fa-1x" ></i></a></button>
+                <button><input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6HfI2BE6fNjX0KZzJSRbIusOzUAhz_eYsKyMGTodKOvHMBlHJ" alt="Submit"
+                class="profile" width="48" height="48" align="right">
+                </input></button>
+              </div>
+            </div>
+          </div>
+  <div class="profile-container">
+    <div class="displaypic">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sidhu_in_Punjab.jpg/220px-Sidhu_in_Punjab.jpg" class="profilepic">
+    </div>
+    <div class="about">
+        <h2>Siddhu Moosewala</h2>
+        Indian Singer<br>
+        Sidhu hails from the village of Moosa in Mansa district of Punjab. He was born in a Sikh family, to father Bhola Singh and mother Charan Kaur. He studied at Guru Nanak Dev Engineering College, Ludhiana and graduated in Electrical Engineering in 2016. Moose Wala has his current residence in Brampton. He has also performed at DAV College fest. Moose Wala admires and is influenced by rapper Tupac Shakur.
+
+        <div class="play"><button style="display: inline-block;">Play All</button><br><span>247 tracks | 125 Albums</span></div>
+        <div class="follow" style="display: inline-block;"><a href="#">Follow</a></div>
+    </div>
+          	<span style="color: white"> 851 followers</span>
+  </div>
+  <div class="table">
+  	<table>
+  	<tr>
+  		<td>01</td>
+  		<td>&emsp;&emsp;</td>
+  		<td><div class="B1" style="width: 60px;height: 60px;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaMGI1ta2YdSzKyHHs7a4Y4lNPSUQLEAxHGMffdYdv6PeX46ja&s"alt ="CP" class="P" style="width: 50px;height: 50px;"></a></div></td>
+  			<td><a href="#"><p style="color: white">Old Skool<br>Prem Dhilon</p></a></td>
+  			<td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+
+  			<td><a href="#" style="color: white"><i class="far fa-heart"></i></a></td>
+  			<td>&emsp;&emsp;</td>
+  			<td><i class="fas fa-plus"></i></td>
+  	</tr>
+  	<tr>
+  		<td>02</td>
+  		<td>&emsp;&emsp;</td>
+  		<td><div class="B1" style="width: 60px;height: 60px;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow"alt ="CP" class="P" style="width: 50px;height: 50px;"></a></div></td>
+  			<td><a href="#"><p style="color: white">Dhakka<br>Afsana Khan</p></a></td>
+  			<td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+
+  			<td><a href="#" style="color: white"><i class="far fa-heart"></i></a></td>
+  			<td>&emsp;&emsp;</td>
+  			<td><i class="fas fa-plus"></i></td>
+  	</tr>
+  	<tr>
+  		<td>03</td>
+  		<td>&emsp;&emsp;</td>
+  		<td><div class="B1" style="width: 60px;height: 60px;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9AKfKMlN3sAVSC6yBvO4RXrLLFben6ouj-aQLR9PSDKmd0GFX2w&s"alt ="CP" class="P" style="width: 50px;height: 50px;"></a></div></td>
+  			<td><a href="#"><p style="color: white">Same Beef<br>Bohemia</p></a></td>
+  			<td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+
+  			<td><a href="#" style="color: white"><i class="far fa-heart"></i></a></td>
+  			<td>&emsp;&emsp;</td>
+  			<td><i class="fas fa-plus"></i></td>
+  	</tr>
+  	<tr>
+  		<td>04</td>
+  		<td>&emsp;&emsp;</td>
+  		<td><div class="B1" style="width: 60px;height: 60px;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL78SE_HuDgArW-dyVyUq19GL7ccVF4J88LdtfY6jV5gDxE0Ow"alt ="CP" class="P" style="width: 50px;height: 50px;"></a></div></td>
+  			<td><a href="#"><p style="color: white">Death Root<br>Death Root</p></a></td>
+  			<td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+
+  			<td><a href="#" style="color: white"><i class="far fa-heart"></i></a></td>
+  			<td>&emsp;&emsp;</td>
+  			<td><i class="fas fa-plus"></i></td>
+  	</tr>
+  	<tr>
+  		<td>05</td>
+  		<td>&emsp;&emsp;</td>
+  		<td><div class="B1" style="width: 60px;height: 60px;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oO0W9bQ4LVjzKI4io6ly5vDzpfJ5cuzQ3god9ZgCk6CkoR8T&s"alt ="CP" class="P" style="width: 50px;height: 50px;"></a></div></td>
+  			<td><a href="#"><p style="color: white"> So High<br>So High</p></a></td>
+  			<td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+
+  			<td><a href="#" style="color: white"><i class="far fa-heart"></i></a></td>
+  			<td>&emsp;&emsp;</td>
+  			<td><i class="fas fa-plus"></i></td>
+  	</tr>
+  	<tr>
+  		<td>06</td>
+  		<td>&emsp;&emsp;</td>
+  		<td><div class="B1" style="width: 60px;height: 60px;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPVEUxRfXK2cryiK1TRjxFh0sOnTMNxW9CD5Mltdz5JFlfAnUVQ&s"alt ="CP" class="P" style="width: 50px;height: 50px;"></a></div></td>
+  			<td><a href="#"><p style="color: white">Poison<br>Marjavan</p></a></td>
+  			<td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+
+  			<td><a href="#" style="color: white"><i class="far fa-heart"></i></a></td>
+  			<td>&emsp;&emsp;</td>
+  			<td><i class="fas fa-plus"></i></td>
+  	</tr>
+
+  	</table>
+  </div>
+  <div class="similar-artists" style="color: white;">
+  	Similar Artists
+  	<table>
+    <tr>
+      <td>1</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQssEgeAjah_HznyhIpMjXzArPcx14bIspxT8gawZYqsBKst7h-"class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Camelia cabelo<p style="font-size: 10px">Senorita</p></td>
+        <td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>2</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5-SoDJKgJSn-O1Q6-aKj0aRUgywlsZjq01tx30OFqE89ULdnY" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Salena Gomez<p style="font-size: 10px">We don't talk anymore</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>3</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwQCSgBA5ua2SGGuz3GcoC-q3qCoqb4i5QRifYCOph352fqGeJ" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Lucifer<p style="font-size: 10px">Being evil has a price</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>4</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwQCSgBA5ua2SGGuz3GcoC-q3qCoqb4i5QRifYCOph352fqGeJ" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Lucifer<p style="font-size: 10px">Call me Devil</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+     </table>
+     <div class="RP">
+     	Recently Played
+  	<table>
+    <tr>
+      <td>1</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQssEgeAjah_HznyhIpMjXzArPcx14bIspxT8gawZYqsBKst7h-"class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Camelia cabelo<p style="font-size: 10px">Senorita</p></td>
+        <td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>2</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5-SoDJKgJSn-O1Q6-aKj0aRUgywlsZjq01tx30OFqE89ULdnY" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Salena Gomez<p style="font-size: 10px">We don't talk anymore</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>3</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwQCSgBA5ua2SGGuz3GcoC-q3qCoqb4i5QRifYCOph352fqGeJ" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Lucifer<p style="font-size: 10px">Being evil has a price</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+    <tr>
+    <td>4</td>
+      <td align="justify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwQCSgBA5ua2SGGuz3GcoC-q3qCoqb4i5QRifYCOph352fqGeJ" class="dp"
+        width="48" height="48"></td>
+        <td colspan="3">Lucifer<p style="font-size: 10px">Call me Devil</p></td>
+        <td></td>
+        <td><i class="far fa-heart"></i></td>
+    </tr>
+</table>
+</div>
+</div>
+<div class="fixed-footer">
+        <div class="now-playing">
+          <table>
+          <tr>
+            <th rowspan="2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfJY2X5RQPyw2II4F7HLKVLk9hQeQtp-t4IBfC0cOYEBaVjzIx" class="dp"
+        width="48" height="48"></th>
+        <td colspan="3">See you again<p style="line-height: 1px;">Charlie Puth</p></td>
+        <td></td>
+        <td></td>
+
+        <td><a href="#" style="color: white"><i class="far fa-heart"></i></a></td>
+        <td><a href="#" style="color: white"><i class="fas fa-ban"></i></a></td>
+          </tr>
+        </table>
+        </div>  
+        <div class="control"> 
+          <table>
+            <tr>
+              <td><i class="fas fa-random"></i></td>
+              <td><i class="fas fa-fast-backward"></i></td>
+              <td><i class="far fa-pause-circle"></i></td>
+              <td><i class="fas fa-fast-forward"></i></td>
+              <td><i class="fas fa-redo-alt"></i></td>
+            </tr>
+            <tr>
+              <td colspan="10"><form action="/action_page.php">
+                0:00 <input type="range" name="points" min="0" max="10">
+                 5:00</form></td>
+            </tr>
+          </table>
+        </div>      
+        <div class="right-most">
+          <table>
+            <tr><i class="fab fa-playstation"></i>
+            <i class="fas fa-volume-up"></i>
+            <input type="range" name="points" min="0" max="100" step="5">
+          </tr>
+          </table>
+          
+        </div>
+    </div>
+</body>
+</html>
